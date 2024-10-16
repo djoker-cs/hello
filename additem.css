@@ -1,0 +1,48 @@
+.add-item-form {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.add-item-form h2 {
+    color: #ffffff;
+}
+
+.add-item-input, .add-item-select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+.add-item-input:focus, .add-item-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.add-item-button {
+    padding: 10px 20px;
+    background-color: #045b62; 
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.add-item-button:hover {
+    background-color: #0d484e;
+}
+
+.add-item-message {
+    color: #28a745; 
+    font-size: 16px;
+}

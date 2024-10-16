@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: black;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: rgba(241, 241, 241, 0.29); /* Adjusted for better readability */
+}
+
+.table-container {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.table-container .add-item-form {
+    display: flex; /* Added for layout control */
+    align-items: center;
+}
+
+.table-container h2 {
+    text-align: center;
+    color: white;
+}
+
+.items-table {
+    color: black; /* This can be merged into the table styles if applicable */
+}

@@ -1,0 +1,11 @@
+body
+{ 
+  background-image: url('/public/night.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  color: rgb(35, 136, 150);
+
+  
+}
+
